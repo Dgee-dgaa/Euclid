@@ -1262,16 +1262,37 @@ input[type="checkbox"]:focus + label::before {
     font-size: 28px;
   }
 
+  .header {
+    padding: 10px 10px 6px;
+  }
+
   .hero-section__container {
+    padding: 90px 50px 91px 78px;
     margin: 0;
   }
 
   .hero-section__header {
-    font-size: 28px;
-}
+    font-size: 40px;
+    line-height: 2;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .hero-section__text {
+    line-height: 2;
+    margin-bottom: 50px;
+  }
+
+  .hero-section__btn {
+    margin-bottom: 60px;
+  }
 
   .about__cards-item {
     padding: 25px;
+  }
+
+  .about__plan-text {
+    margin-bottom: 20px;
   }
 
   .work__btn {
@@ -1291,9 +1312,21 @@ input[type="checkbox"]:focus + label::before {
     padding: 30px 60px 30px 0;
   }
 
+  .faq .ui-accordion .ui-accordion-header {
+    padding: 39px 15px 39px 5px;
+  }
+
+  .footer__container {
+    text-align: center;
+  }
+
   .footer__logo {
     max-width: 250px;
     margin-right: 0;
+}
+
+.footer__navigation {
+  margin: 0 auto;
 }
 
 @media (max-width: 320px) {
